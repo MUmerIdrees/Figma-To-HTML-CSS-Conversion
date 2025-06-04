@@ -2070,6 +2070,10 @@ input:not(:placeholder-shown) + .custom-placeholder {
     display: flex;
 }
 
+.btn:hover {
+    background-color: #C43C3C;
+}
+
 @media (max-width: 1520px) {
     .w-62-1 {
         width: 55%;
