@@ -2070,8 +2070,25 @@ input:not(:placeholder-shown) + .custom-placeholder {
     display: flex;
 }
 
-.btn:hover {
+.btn:hover, .login-form-buttons a:hover {
     background-color: #C43C3C;
+}
+
+.carousel-button:hover, .carousel-button-1:hover, .arrow-btn:hover {
+    background-color: #DB4444;
+} 
+
+.carousel-button:hover svg path, .carousel-button-1:hover, .arrow-btn:hover svg path {
+    stroke: white;
+}
+
+.signup-google:hover, .move-all-to-bag:hover, .see-all:hover, .return-to-shop:hover, .update-cart:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.login a {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1520px) {
