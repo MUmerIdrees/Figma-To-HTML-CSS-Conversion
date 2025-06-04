@@ -2070,15 +2070,19 @@ input:not(:placeholder-shown) + .custom-placeholder {
     display: flex;
 }
 
-.btn:hover, .login-form-buttons a:hover {
+.btn:hover, .profile-dropdown-btn:hover {
     background-color: #C43C3C;
+}
+
+.login-form-buttons a:hover {
+    color: #C43C3C;
 }
 
 .carousel-button:hover, .carousel-button-1:hover, .arrow-btn:hover {
     background-color: #DB4444;
 } 
 
-.carousel-button:hover svg path, .carousel-button-1:hover, .arrow-btn:hover svg path {
+.carousel-button:hover svg path, .carousel-button-1:hover svg path, .arrow-btn:hover svg path {
     stroke: white;
 }
 
@@ -2086,9 +2090,10 @@ input:not(:placeholder-shown) + .custom-placeholder {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.login a {
+.signup-google-or-login .login a {
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0.5);
+    text-underline-offset: 6px;
 }
 
 @media (max-width: 1520px) {
